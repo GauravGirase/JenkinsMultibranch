@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Shell script') {
             steps {
-                echo "Hello I am from Dev Branch"
+                echo "Hello I am from Stage Branch"
             }
         }
     }
